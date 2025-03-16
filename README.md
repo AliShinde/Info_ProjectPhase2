@@ -47,4 +47,6 @@ Store the training samples in medical_data folder and run the following command 
 ## Evaluate
 
 To generate evaluation results
+
+
 ```  python model/fsum.py evaluate --data_dir  path/to/medical_data --dataset_name medical --training_domain medical --content_type oracle --output_dir output ```
